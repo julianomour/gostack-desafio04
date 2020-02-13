@@ -1,3 +1,25 @@
-header {
+.header {
+  height: 64px;
   background-color: #4A90E2;
+  position: relative;
+}
+
+.header .logo {
+  position: absolute;
+width: 120.92px;
+height: 23.93px;
+left: 42.03px;
+top: 20.05px;
+}
+
+.header .link-perfil {
+  position: relative;
+  float: right;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  top: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  right: 30px;
 }

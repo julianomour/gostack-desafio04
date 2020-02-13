@@ -1,0 +1,36 @@
+.comments {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.comment{
+  background: #EEEEEE;
+  border-radius: 20px;
+  padding: 10px 15px;
+  max-width: 622px
+}
+
+.comments img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comments .comment .comment-name {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  color: #4A4A4A;
+}
+
+.comments .comment p {
+  
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #4A4A4A;
+}
